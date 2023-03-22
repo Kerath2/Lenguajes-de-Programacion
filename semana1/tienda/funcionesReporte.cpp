@@ -22,4 +22,5 @@ void imprimeCabeceraTienda(){
   cout << setw(30) << "DESCRIPCION";
   cout << setw(20) << "CANTIDAD";
   cout << setw(20) << "UNIDAD" << endl;
+  imprimeLinea('-', 100);
 }

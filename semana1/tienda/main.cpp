@@ -24,6 +24,7 @@ int main(){
     }else{
       dd = dato;
       cin >> c >> mm >> c >> aa >> tipo >> codigo >> nombre >> cant;
+      cout << setw(2) << right<< setfill('0')<< dd << '/'<< setw(2) << mm << '/' << setw(4) << aa << endl;
       if (cin.fail()){
         cin.clear();
       }
