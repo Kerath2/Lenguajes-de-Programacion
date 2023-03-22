@@ -13,4 +13,13 @@ void imprimeLinea(char car, int num){
 
 void imprimeCabecera(){
   cout << setw(50) << "REPORTE KARDEX" << endl;
+  imprimeLinea('=',100);
+}
+
+void imprimeCabeceraTienda(){
+  cout << setw(20) << left << "FECHA";
+  cout << setw(20) << "CODIGO";
+  cout << setw(30) << "DESCRIPCION";
+  cout << setw(20) << "CANTIDAD";
+  cout << setw(20) << "UNIDAD" << endl;
 }

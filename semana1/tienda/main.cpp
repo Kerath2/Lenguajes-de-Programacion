@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include "funcionesReporte.h"
+#define TAM_LINEA 100
 using namespace std;
 
 
@@ -18,6 +19,8 @@ int main(){
     if (dato > 9990){
       cin >> nombre;
       cout << dato << " " <<nombre << endl;
+      imprimeLinea('=',TAM_LINEA);
+      imprimeCabeceraTienda();
     }else{
       dd = dato;
       cin >> c >> mm >> c >> aa >> tipo >> codigo >> nombre >> cant;
