@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-
+#include "funcionesReporte.h"
 using namespace std;
 
 
@@ -8,6 +8,8 @@ int main(){
   int dato,dd,mm,aa,tipo,codigo,cant;
   char nombre[100], c,unidad[10];
   
+  imprimeCabecera();
+
   while (1){
     cin >> dato;
     if (cin.eof()){
