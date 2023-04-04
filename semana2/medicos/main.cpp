@@ -20,8 +20,11 @@ int main(){
       cin.clear();
       cin >> codDoctor >> nombreDoctor;
       cortaEspecialidad(nombreDoctor,nomEsp,espMin);
+      cout << left << endl;
+      cout << setw(40) << nombreDoctor << right << setw(20)  << codDoctor <<  setw(20) << espMin << endl;
     }else{
       cin >> nombrePaciente >> cant; 
+      cout <<left <<  setw(20)<<dni <<  setw(50) << nombrePaciente << endl;
       for (int i = 0 ; i < cant ;i++){
         cin >> codMed; 
         cin >> nombreMedicina;
