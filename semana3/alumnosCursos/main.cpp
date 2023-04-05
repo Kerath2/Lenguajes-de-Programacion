@@ -7,7 +7,8 @@ using namespace std;
 
 int main(){
   generaAlumnosBin();
-
-
+  generarConsolidado();
+  imprimeConsolidado();
+  actualizaConsolidado();
   return 0;
 }

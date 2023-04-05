@@ -1,0 +1,27 @@
+  20160658   Arca/Amezquita/Edric-Ronald    0    0    0    0       FCI  IngenieriaMecanica
+  20119778  Morales/Valverde/Ines-Martha    0    0    0    0       FCIIngenieriaInformatica
+      5258 Gavidia/Mendoza/Ronald-Johnny    0    0    0    0       FEIIngenieriaElectronica
+  20150564     Auris/Zimic/Javier-Daniel    0    0    0    0       FCI         Matematicas
+  20080667            Lozada/Yino/Martha    0    0    0    0       FCI         Matematicas
+  20127352         Justino/Cruz/Williams    0    0    0    0       FCI  IngenieriaMecanica
+      5395Alamo/Pairazaman/Miguel-Roberto    0    0    0    0       FEI             Quimica
+  20120476      Henriquez/Espino/Beatriz    0    0    0    0       FCIIngenieriaInformatica
+  20160119      Paredes/Patino/Christian    0    0    0    0       FCIIngenieriaInformatica
+  20109738              Caro/Polo/Sandro    0    0    0    0       FCI  IngenieriaMecanica
+  20003541Cabrera/Canales/Guillermo-Edric    0    0    0    0       FCIIngenieriaInformatica
+      4450            Vega/Munoz/Gonzalo    0    0    0    0       FEIIngenieriaElectronica
+      7613    Cortez/Segura/Carmela-Ines    0    0    0    0       FEIIngenieriaElectronica
+  20170596Portugal/Benavente/Johana-Gloria    0    0    0    0       FCI  IngenieriaMecanica
+      9442         Florian/Morales/Ydali    0    0    0    0       FEIIngenieriaIndustrial
+      2075            Moya/Aranda/Johnny    0    0    0    0       FEIIngenieriaIndustrial
+  20083333      Laura/Wong/Melvin-Henrry    0    0    0    0       FCI  IngenieriaMecanica
+      6702Calixto/Tomasiche/Monica-Doris    0    0    0    0       FEIIngenieriaIndustrial
+      1994    Ruiz/Gordillo/Carola-Erika    0    0    0    0       FEIIngenieriaIndustrial
+  20097877        Coronel/Chumpitaz/Heli    0    0    0    0       FCI             Quimica
+      8528Zarate/Del_Pozo/Humberto-Antonio    0    0    0    0       FEI  IngenieriaMecanica
+  20164217Palomares/Vera/Henrry-Humberto    0    0    0    0       FCIIngenieriaElectronica
+      6553       Coronado/Figueroa/Johan    0    0    0    0       FEI             Quimica
+      1346Hijar/Pairazaman/Jenny-Delicia    0    0    0    0       FEI             Quimica
+  20110165          Landeo/Sueldo/Adolfo    0    0    0    0       FCIIngenieriaInformatica
+      6965  Antezano/Segura/Teresa-Delia    0    0    0    0       FEI  IngenieriaMecanica
+  20167828     Pasquel/Quio/Surami-Janet    0    0    0    0       FCI              Fisica
