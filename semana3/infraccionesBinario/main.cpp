@@ -25,13 +25,13 @@ int main(){
     exit(1);
   }
 
-  ofstream conductores("Conductores.bin",ios::out|ios::binary);
+  fstream conductores("Conductores.bin",ios::out |ios::in |ios::binary);
   if(!conductores){
     cout << "Error en la apaertura del archivo Conductores.bin" << endl;
     exit(1);
   }
 
-  ofstream faltasCometidas("FaltasCometidas.bin",ios::out|ios::binary);
+  fstream faltasCometidas("FaltasCometidas.bin",ios::out|ios::in|ios::binary);
   if(!faltasCometidas){
     cout << "Eror en la apertura del archivo FaltasCometidas.bin" << endl;
     exit(1);
@@ -83,7 +83,41 @@ int main(){
     infr >> descripcion >> gravedad >> multa;
   }
 
+  //calcularemos la cantidad de registros que hay 
+  int cantRegistros;
+  int tamanoRegistro = sizeof(int) + sizeof(char) * 300 + sizeof(int) *3 + sizeof(double) * 3; 
   
+  conductores.seekg(0,ios::end);
+  int totalBytes = conductores.tellg();
+  
+  cantRegistros = totalBytes/tamanoRegistro;
+
+  cout << "cant Registros: " << cantRegistros << endl;
+  conductores.seekg(0,ios::beg);
+
+  
+  
+
+
+
+  //Elaborando reportes para asegurarse que todo este bien
+  conductores.read(reinterpret_cast<char *>(&licencia),sizeof(int));
+  conductores.read(reinterpret_cast<char *>(nombre), sizeof(char) * 300);
+  conductores.read(reinterpret_cast<char *>(&nFaltasLeves), sizeof(int));
+  conductores.read(reinterpret_cast<char *>(&nFaltasGraves), sizeof(int));
+  conductores.read(reinterpret_cast<char *>(&nFaltasMGraves), sizeof(int));
+  conductores.read(reinterpret_cast<char *>(&montoLeves), sizeof(double));
+  conductores.read(reinterpret_cast<char *>(&montoGraves), sizeof(double));
+  conductores.read(reinterpret_cast<char *>(&montoMGraves), sizeof(double));
+  
+  cout << licencia << endl;
+  cout << nombre << endl;
+  cout << nFaltasLeves << endl;
+  cout << nFaltasGraves<< endl;
+  cout << montoLeves<< endl;
+  cout << montoGraves<< endl;
+  cout << montoMGraves<< endl;
+
 
   return 0;
 
