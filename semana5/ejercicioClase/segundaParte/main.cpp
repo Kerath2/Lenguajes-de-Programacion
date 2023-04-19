@@ -5,9 +5,6 @@
 using namespace std;
 
 int main(){
-  leerArchivos();
-  imprimeArchivo();
-  
-
+  actualiza();
   return 0;
 }
