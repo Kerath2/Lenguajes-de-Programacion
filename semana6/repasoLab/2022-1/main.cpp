@@ -5,17 +5,23 @@
 #include "Estructuras.h"
 #include "operadores.h"
 #include "funciones.h"
+#include "AperturaDeArchivos.h"
 using namespace std;
 
 
 int main(){
   Estructura_ClienteRegistrado clientes[100]; 
   inicializa(clientes,100);
-  ifstream arch("./Clientes.txt",ios::in);
-  if(!arch){
-    cout << "Error en la apertura del archivo clientes.txt" << endl;
-    exit(1);
-  }
+  // ifstream arch("./Clientes.txt",ios::in);
+  // if(!arch){
+  //   cout << "Error en la apertura del archivo clientes.txt" << endl;
+  //   exit(1);
+  // }
+  
+  ifstream arch;
+
+AperturaDeUnArchivoDeTextosParaLeer(arch,"Clientes.txt");
+   
 
   ofstream reporte("./reporte.txt",ios::out);
   if(!reporte){
