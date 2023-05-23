@@ -1,0 +1,27 @@
+  989 2018   12            Moya/Aranda/Johnny           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+    5 2016   55  Morales/Valverde/Ines-Martha        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+    1 2019  304 Gavidia/Mendoza/Ronald-Johnny                        Fisica    0    0    0    0    0    0    0    0
+  575 2015   12Cabrera/Canales/Guillermo-Edric           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+   39 2015   12      Henriquez/Espino/Beatriz           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+    4 2018   12   Arca/Amezquita/Edric-Ronald           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+ 8674 2016   55Hijar/Pairazaman/Jenny-Delicia        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+  300 2017   55    Cortez/Segura/Carmela-Ines        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+   73 2017   55Alamo/Pairazaman/Miguel-Roberto        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+  703 2018  304Portugal/Benavente/Johana-Gloria                        Fisica    0    0    0    0    0    0    0    0
+ 6358 2016 1920        Coronel/Chumpitaz/Heli                   Matematicas    0    0    0    0    0    0    0    0
+  159 2016 1920Calixto/Tomasiche/Monica-Doris                   Matematicas    0    0    0    0    0    0    0    0
+  896 2018   12      Laura/Wong/Melvin-Henrry           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+ 6560 2018   55       Coronado/Figueroa/Johan        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+   11 2019 1920            Lozada/Yino/Martha                   Matematicas    0    0    0    0    0    0    0    0
+ 8880 2019 1920  Antezano/Segura/Teresa-Delia                   Matematicas    0    0    0    0    0    0    0    0
+ 3204 2016   55Palomares/Vera/Henrry-Humberto        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+ 4267 2016  304          Landeo/Sueldo/Adolfo                        Fisica    0    0    0    0    0    0    0    0
+ 7495 2016   12     Pasquel/Quio/Surami-Janet           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+  558 2016   12            Vega/Munoz/Gonzalo           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
+   13 2018  304              Caro/Polo/Sandro                        Fisica    0    0    0    0    0    0    0    0
+   60 2017  304     Auris/Zimic/Javier-Daniel                        Fisica    0    0    0    0    0    0    0    0
+ 2988 2015 1920Zarate/Del_Pozo/Humberto-Antonio                   Matematicas    0    0    0    0    0    0    0    0
+  724 2016   55    Ruiz/Gordillo/Carola-Erika        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+   73 2019 1920         Justino/Cruz/Williams                   Matematicas    0    0    0    0    0    0    0    0
+   83 2016   55      Paredes/Patino/Christian        Ingenieria_Informatica    0    0    0    0    0    0    0    0
+  193 2015   12         Florian/Morales/Ydali           Ingenieria_Mecanica    0    0    0    0    0    0    0    0
