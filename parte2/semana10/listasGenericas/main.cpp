@@ -1,16 +1,10 @@
 #include <iostream>
-#include <cstdlib>
-#include "funcionesGenericas.h"
 #include "funcionesConTipo.h"
-
-using namespace std;
-
-
-//tendremos una funcion leeentero, leecadena y leeregistro
+#include "funcionesGenericas.h"
 
 int main(){
-  void * lista = nullptr;
-  //nuestra funcion crealista es generica
-  crealista(lista,leeentero,cmpentero);
+  void *lista;
+  crealista(lista,leecadena,cmpcadena); 
+  imprimeLista(lista,imprimeCadena);
   return 0;
 }
