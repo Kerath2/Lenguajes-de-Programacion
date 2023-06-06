@@ -15,34 +15,25 @@
 using namespace std;
 
 
-void creaLista(void *&lista,void * (*lee)(ifstream &),int (*cmp)(const void *, const void *),
-               const char * nombreArch){
-   //Creamos el arreglo para ordenarlo
-    ifstream arch(nombreArch,ios::in);
-    if(!arch){
-        cout << "Error en la apertura del archivo de lectura " << endl;
+void crealista(void *&lista,void * (*lee)(ifstream &),int (*cmp)(const void *, const void *),
+               const char * nombrearch){
+    
+    ifstream archDatos(nombrearch,ios::in);
+    if(!archDatos){
+        cout<<"ERROR: NO se puede abrir el archivo "<<endl;
         exit(1);
     }
-    void *buff[2000];
-    int cont = 0;
-    while(1){
-        buff[cont] = lee(arch); 
-        if (buff[cont] == nullptr) break;
-        cont++;
-    }
-
-    void **aux = new void*[cont+1];
-    aux[cont] = nullptr;
-    for (int i = 0 ; i < cont; i++)
-        aux[i] = buff[i];
     
-    qsort(aux,cont,sizeof(void*),cmp);
-    //Creamos la lista y metemos los datos
+    void *dato;
+    lista=nullptr;
+    
     construyeLista(lista);
-    for (int i = 0 ; i < cont ; i++){
-        insertaLista(lista,aux[i],cmp);
+    
+    while(1){
+        dato=lee(archDatos);
+        if(archDatos.eof()) break;
+        insertaLista(lista,dato,cmp);
     }
-
 }
 
 void construyeLista(void *&lista){

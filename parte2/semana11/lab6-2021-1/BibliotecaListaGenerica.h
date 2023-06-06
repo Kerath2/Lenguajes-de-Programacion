@@ -10,8 +10,8 @@
 
 #include <fstream>
 using namespace std;
-void creaLista(void *&lista1,void * (*lee)(ifstream &),int (*cmp)(const void *, const void *),
-               const char * nombreArch);
+void crealista(void *&lista,void * (*lee)(ifstream &),int (*cmp)(const void *, const void *),
+               const char * nombrearch);
 void construyeLista(void *&lista);
 int listavacia(void*lista);
 void insertaLista(void *lista,void * dato,int (*cmp)(const void *, const void *));
