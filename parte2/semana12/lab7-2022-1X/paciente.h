@@ -24,6 +24,7 @@ public:
     int ultimaCita() const;
     void operator+=(cita &cit);
     void operator ++(int a);
+    void imprimeCitas(ofstream &);
 private:
     int dni;
     char *nombre;
@@ -33,6 +34,6 @@ private:
 };
 
 ifstream & operator >>(ifstream &arch, paciente &pac);
-
+ofstream & operator <<(ofstream &arch, paciente &pac);
 #endif /* PACIENTE_H */
 

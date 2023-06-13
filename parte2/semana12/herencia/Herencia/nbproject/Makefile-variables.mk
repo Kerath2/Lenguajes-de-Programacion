@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=lab7-2022-1
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/lab7-2022-1
+CND_ARTIFACT_NAME_Debug=herencia
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/herencia
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=lab7-2022-1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/lab7-2022-1.tar
+CND_PACKAGE_NAME_Debug=herencia.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/herencia.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=lab7-2022-1
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/lab7-2022-1
+CND_ARTIFACT_NAME_Release=herencia
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/herencia
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=lab7-2022-1.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/lab7-2022-1.tar
+CND_PACKAGE_NAME_Release=herencia.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/herencia.tar
 #
 # include compiler specific variables
 #

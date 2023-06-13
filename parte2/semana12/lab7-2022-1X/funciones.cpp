@@ -57,9 +57,38 @@ void llenaCitasPacientes(paciente * arrPacientes,medico *arrMedicos){
     while(1){
         arch >> citatemp;
         if(arch.eof()) break;
-        citatemp.LlenaTarifa(arrMedicos);
+        citatemp<=arrMedicos;
+        int ind = devuelveIndicePaciente(citatemp.GetDni(),arrPacientes);
+        if(ind != -1)
+            arrPacientes[ind]+=citatemp;
     }
     
-    
 
+}
+
+int devuelveIndicePaciente(int dni, paciente * arrPacientes){
+    for (int i = 0 ; arrPacientes[i].GetDni() ;i++)
+        if(dni == arrPacientes[i].GetDni())
+            return i;
+
+    return -1;
+}
+
+    
+void actualizarTarifas(paciente * arrPacientes){
+    for (int i = 0 ; arrPacientes[i].GetDni() ; i++){
+        arrPacientes[i]++;
+    }
+}
+
+
+void imprimePacientes(paciente *arrPacientes){
+    ofstream arch("Reportepacientes.txt",ios::out);
+    if(!arch){
+        cout << "Error en la apertura del archivo" << endl;
+        exit(1);
+    }
+    for (int i = 0 ; arrPacientes[i].GetDni() ; i++){
+       arch << arrPacientes[i]; 
+    }
 }

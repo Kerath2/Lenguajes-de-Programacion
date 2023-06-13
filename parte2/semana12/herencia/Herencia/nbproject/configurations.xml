@@ -4,10 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>cita.h</itemPath>
-      <itemPath>funciones.h</itemPath>
-      <itemPath>medico.h</itemPath>
-      <itemPath>paciente.h</itemPath>
+      <itemPath>ClaseCilindro.h</itemPath>
+      <itemPath>ClaseCirculo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -16,11 +14,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>cita.cpp</itemPath>
-      <itemPath>funciones.cpp</itemPath>
+      <itemPath>ClaseCilindro.cpp</itemPath>
+      <itemPath>ClaseCirculo.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
-      <itemPath>medico.cpp</itemPath>
-      <itemPath>paciente.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -44,23 +40,15 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="cita.cpp" ex="false" tool="1" flavor2="0">
+      <item path="ClaseCilindro.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="cita.h" ex="false" tool="3" flavor2="0">
+      <item path="ClaseCilindro.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      <item path="ClaseCirculo.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      <item path="ClaseCirculo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="medico.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="medico.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="paciente.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="paciente.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -83,23 +71,15 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="cita.cpp" ex="false" tool="1" flavor2="0">
+      <item path="ClaseCilindro.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="cita.h" ex="false" tool="3" flavor2="0">
+      <item path="ClaseCilindro.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      <item path="ClaseCirculo.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="funciones.h" ex="false" tool="3" flavor2="0">
+      <item path="ClaseCirculo.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="medico.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="medico.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="paciente.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="paciente.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -12,5 +12,8 @@
 void llenarMedicos(medico * arrMedicos);
 void llenaPacientes(paciente *arrPacientes);
 void llenaCitasPacientes(paciente * arrPacientes,medico *arrMedicos);
+int devuelveIndicePaciente(int dni, paciente * arrPacientes);
+void actualizarTarifas(paciente * arrPacientes);
+void imprimePacientes(paciente *arrPacientes);
 #endif /* FUNCIONES_H */
 

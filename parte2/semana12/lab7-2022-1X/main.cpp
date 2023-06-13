@@ -19,9 +19,9 @@ int main(int argc, char** argv) {
 
     llenarMedicos(arrMedicos);
     llenaPacientes(arrPacientes);
-    
     llenaCitasPacientes(arrPacientes,arrMedicos);
-
+    actualizarTarifas(arrPacientes);
+    imprimePacientes(arrPacientes);
     return 0;
 }
 

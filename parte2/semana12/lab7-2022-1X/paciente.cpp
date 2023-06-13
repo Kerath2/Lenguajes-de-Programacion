@@ -73,6 +73,15 @@ void paciente::operator ++(int a){
         totalGastado+= lcitas[i].GetTarifa();
     }
 }
+void paciente::imprimeCitas(ofstream &arch ){
+    arch << "No" << " " << "FECHA" << " "<<"CODIGO DEL MEDICO" << " " << "TARIFA" << endl; 
+    for (int i = 0 ; lcitas[i].GetDni() ; i++){
+        arch << i+1 << ')' << " " << lcitas[i].GetFecha() << " " << lcitas[i].GetCodigo() << " "
+            << lcitas[i].GetTarifa() << endl;
+    }
+}
+
+
 
 
 ifstream & operator >>(ifstream &arch, paciente &pac){
@@ -89,6 +98,21 @@ ifstream & operator >>(ifstream &arch, paciente &pac){
         pac.SetNombre(nombre);
         pac.SetTelefono(telefono);
     }
+
+    return arch;
+}
+
+ofstream & operator <<(ofstream &arch, paciente &pac){
+    arch << "DNI" << " " << " " << "TELEFONO" << endl; 
+    char nombre[100];
+    pac.GetNombre(nombre);
+    arch  << pac.GetDni()<< " " << nombre << " " << pac.GetTelefono() << endl;
+    arch << "RELACION DE CITAS" << endl;
+    pac.imprimeCitas(arch);
+
+    arch << "MONTO TOTAL GASTADO: " << pac.GetTotalGastado() << endl;
+
+    for(int i = 0 ; i<100; i++) arch << "=";
 
     return arch;
 }
